@@ -1,27 +1,29 @@
 .about-us-container {
-    width: 1000px;
+    width: 51vw;
     /* margin: 0 auto; */
     /* padding: 20px; */
     /* background-color: red; */
     text-align: justify;
+    margin-right: 1.5vw;
   }
   
   .about-us-heading {
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     margin-bottom: 20px;
   }
   
   .about-us-description {
-    font-size: 18px;
-    color: #666;
+    font-size: 20px;
+    color: #fff;
     margin-bottom: 30px;
     text-align: center;
   }
   
   .about-us-content {
-    font-size: 18px;
+    font-size: 20px;
+    color: #fff;
     margin-bottom: 20px;
   }
   .plant_logo_right{
@@ -30,4 +32,54 @@
 
   .plant_logo_left{
     text-align: left;
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-us-container {
+      width: 90vw;
+      /* margin: 0 auto; */
+      /* padding: 20px; */
+      /* background-color: red; */
+      text-align: justify;
+    }
+  
+    .about-us-description {
+      font-size: 17px;
+      color: #fff;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .about-us-content {
+      font-size: 16.5px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .about-us-description {
+      font-size: 13.5px;
+    }
+
+    .about-us-content {
+      font-size: 13.5px;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 264px) {
+
+    .about-us-description {
+      font-size: 5vw;
+    }
+
+    .about-us-content {
+      font-size: 5vw;
+      color: #fff;
+      margin-bottom: 15px;
+    }
   }

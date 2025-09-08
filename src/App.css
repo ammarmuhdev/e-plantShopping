@@ -30,20 +30,17 @@
   justify-content: center;
   height: 100vh;
   width: 100vw;
- top: 100px;
+  top: 100px;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
-  gap: 20px;
+  gap: 3.5vw;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
   /* background-color: red; */
-  width: 400px;
+  width: 42vw;
   height: 400px;
   display: flex;
   align-items: center;
@@ -62,8 +59,9 @@
   margin-bottom: 10px;
 }
 
-.content p {
-  font-size: 25px;
+.motto {
+  color: white;
+  font-size: 20px;
 }
 
 .divider {
@@ -121,27 +119,87 @@
     width: 100vw;
     height: 100vh;
   }
-
+  
   .landing_content {
-    margin-top: 100px; /* Adjust as needed */
+    margin-top: 35px; /* Adjust as needed */
     margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    width: 90%; /* Adjust as needed */
     text-align: center;
+    height: fit-content;
+  }
+
+  .content h1 {
+    font-size: 35px;
+    margin-bottom: 0px;
   }
 
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
-    width: 80%; /* Adjust as needed */
+    width: 90%; /* Adjust as needed */
+  }
+
+  .get-started-button {
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .divider {
+    margin: 5px 0;
   }
 }
 
 @media screen and (max-width: 480px) {
   .landing_content {
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
     width: 90%; /* Adjust as needed */
+    height: 25%;
   }
 
   .aboutus_container {
     width: 90%; /* Adjust as needed */
   }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .motto {
+    color: white;
+    font-size: 18px;
+  }
+
+  .get-started-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
 }
+
+@media screen and (max-width: 264px) {
+  .landing_content {
+    margin-top: 20px; /* Adjust as needed */
+    width: 90%; /* Adjust as needed */
+    height: 25%;
+  }
+
+  .aboutus_container {
+    width: 90%; /* Adjust as needed */
+  }
+
+  .content h1 {
+    font-size: 8vw;
+  }
+
+  .motto {
+    color: white;
+    font-size: 18px;
+  }
+
+  .get-started-button {
+    padding: 15px 20px;
+    margin-top: 5px;
+    font-size: 6vw;
+  }
+}
+
